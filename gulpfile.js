@@ -7,7 +7,6 @@ var log = plug.util.log;
 
 gulp.task('help', plug.taskListing);
 
-
 /**
  * @desc Lint the code
  */
@@ -64,9 +63,9 @@ function serve(args) {
         delayTime: 1,
         ext: 'html js',
         env: {'NODE_ENV': args.env},
-        watch: ['gulpfile.js', 
-                'package.json', 
-                pkg.paths.server, 
+        watch: ['gulpfile.js',
+                'package.json',
+                pkg.paths.server,
                 pkg.paths.client]
     };
 
