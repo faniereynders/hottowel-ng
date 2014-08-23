@@ -51,6 +51,9 @@
     "js": [
       "./src/client/app/**/*module*.js",
       "./src/client/app/**/*.js"
+    ],
+    "nodejs": [
+      "./src/serve/**/*.js"
     ]
   }
 }

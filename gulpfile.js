@@ -23,7 +23,7 @@ gulp.task('jshint', function () {
 });
 
 /**
- * @desc Watch files
+ * @desc Watch files and run jshint
  */
 gulp.task('spy', function () {
     log('Watching JavaScript files');
