@@ -1,21 +1,17 @@
 #HotTowel-ng
-Angular starter project
+HotTowel Angular starter project
 
 >*Opinionated AngularJS style guide for teams by [@john_papa](//twitter.com/john_papa)*
 
 >More details about the styles and patterns used in this app can be found in my [AngularJS Style Guide](https://github.com/johnpapa/angularjs-styleguide) and my **AngularJS Patterns: Clean Code**(coming soon) course at [Pluralsight](http://pluralsight.com/training/Authors/Details/john-papa) and working in teams. 
 
 ## Structure
-	/build 	(created on the fly)
-	/gulp	
+The structure also contains a gulpfile.js and a server folder. The server is there just so we can serve the app using node. Feel free to use any server you wish.
+
 	/src
 		/client
 			/app
 			/content
-			/test
-		/server
-			/data
-			/routes
 	
 ## Installing Node.js and Bower Packages
 - Open terminal
@@ -29,10 +25,12 @@ Angular starter project
 ## Running
 Runs locally, no database required.
 
-### Dev Builds
-The dev build does not optimize the deployed code. It simply runs it in place. You can run a dev build in multiple ways.
-
 Type `gulp serve-dev` and browse to `http://localhost:7300`
+
+## Linting
+Type `gulp jshint` to run code analysis on the code.
+
+Type `gulp spy` to run code analysis using a watch.
 
 ## How It Works
 The app is quite simple and has 2 main routes:
