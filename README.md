@@ -13,6 +13,13 @@ The structure also contains a gulpfile.js and a server folder. The server is the
 			/app
 			/content
 	
+## Pre-Requisites
+Install [Node.js](http://nodejs.org)
+
+Install these NPM packages globally:
+
+`npm install -g bower gulp nodemon`
+
 ## Installing Node.js and Bower Packages
 - Open terminal
 - Type `npm install`
