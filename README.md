@@ -20,12 +20,11 @@ Install these NPM packages globally:
 
 `npm install -g bower gulp nodemon`
 
-## Installing Node.js and Bower Packages
+## Installing Packages
 - Open terminal
 - Type `npm install`
 
-## Installing Bower Packages
-`npm install` will install these too, but you can do it manually.
+`npm install` will install bower packages too, but you can do it manually.
 - Open terminal
 - Type `bower install`
 
